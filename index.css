@@ -1,0 +1,124 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap");
+
+:root {
+	--primary-color-cyan: hsl(193, 38%, 86%);
+	--primary-color-green: hsl(150, 100%, 66%);
+	--neutral-color-gray: hsl(217, 19%, 38%);
+	--neutral-color-dark-gray: hsl(217, 19%, 24%);
+	--neutral-color-blue: hsl(218, 23%, 16%);
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html {
+	font-size: 10px;
+}
+
+body {
+	background-color: var(--neutral-color-blue);
+	min-height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.container {
+	/* min-width: 104rem; */
+	width: 45%;
+	margin: auto;
+	background-color: var(--neutral-color-gray);
+	padding: 3.2rem;
+	padding-bottom: 6.4rem;
+	border-radius: 1.8rem;
+	font-family: "Manrope", sans-serif;
+	/* position   */
+	position: relative;
+	/* flex */
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 2.4rem;
+}
+
+.index {
+	color: var(--primary-color-green);
+	font-size: 1.6rem;
+	letter-spacing: 1.8px;
+}
+
+.advice-quote {
+	color: var(--primary-color-cyan);
+	font-size: 2.8rem;
+	text-align: center;
+}
+
+.image-divider {
+	width: 100%;
+}
+
+.image-dice-div {
+	margin: auto;
+	background-color: var(--primary-color-green);
+	width: 9.2rem;
+	height: 29%;
+	border-radius: 3.2rem;
+	/* position   */
+	position: absolute;
+	bottom: -12.5%;
+	/* flex */
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.image-dice-div:hover,
+.image-dice-div:active {
+	box-shadow: 0px 0px 18px 4px var(--primary-color-green);
+}
+
+.image-dice {
+	width: 4.2rem;
+	height: 4.2rem;
+}
+
+/* ///////////////////// */
+/* MEdia querries */
+/* ///////////////////// */
+
+@media (max-width: 1350px) {
+	.container {
+		width: 65%;
+	}
+}
+@media (max-width: 1000px) {
+	.container {
+		width: 75%;
+	}
+}
+@media (max-width: 850px) {
+	html {
+		font-size: 9px;
+	}
+	.container {
+		width: 80%;
+	}
+}
+@media (max-width: 600px) {
+	html {
+		font-size: 8px;
+	}
+	.container {
+		width: 90%;
+	}
+	.image-dice-div {
+		bottom: -12.5%;
+	}
+}
+@media (max-width: 450px) {
+	.container {
+		width: 95%;
+	}
+}
