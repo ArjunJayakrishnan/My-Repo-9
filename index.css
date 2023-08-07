@@ -26,7 +26,6 @@ body {
 	align-items: center;
 }
 .container {
-	/* min-width: 104rem; */
 	width: 45%;
 	margin: auto;
 	background-color: var(--neutral-color-gray);
