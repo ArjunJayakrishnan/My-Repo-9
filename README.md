@@ -1,6 +1,8 @@
-# Frontend Mentor - Advice generator app solution
 
-This is a solution to the [Advice generator app challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/advice-generator-app-QdUG-13db). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
+### Links
+
+- Live Site URL: [https://dynamic-valkyrie-18e832.netlify.app/]
+- Solution URL: [https://github.com/ArjunJayakrishnan/My-Repo-9]
 
 ## Table of contents
 
@@ -11,7 +13,6 @@ This is a solution to the [Advice generator app challenge on Frontend Mentor](ht
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
 
-## Overview
 
 ### The challenge
 
@@ -25,10 +26,6 @@ Users should be able to:
 
 - image : [https://drive.google.com/file/d/1ZkA3RsOiqpL7WfarEdUBDntmEcGk2Esc/view?usp=sharing]
 
-### Links
-
-- Solution URL: [https://github.com/ArjunJayakrishnan/My-Repo-9]
-- Live Site URL: [https://dynamic-valkyrie-18e832.netlify.app/]
 
 ### Built with
 
@@ -42,7 +39,3 @@ Users should be able to:
 ## Author
 
 - Frontend Mentor - [@ArjunJayakrishnan](https://www.frontendmentor.io/profile/ArjunJayakrishnan)
-
-## Acknowledgments
-
-I thank frontend mentor for giving me this challenge.
